@@ -47,6 +47,7 @@ namespace Dapper2
                     }
                     else
                     {
+                        add.Adulto = false;
                         Console.WriteLine("404");
                     }
                    
