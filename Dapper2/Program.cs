@@ -48,7 +48,7 @@ namespace Dapper2
                     }
                     else
                     {
-                        Console.WriteLine("404");
+                        Console.WriteLine("404: voce digitou o sexo errado");
                     }
                 };
                 conn.Execute(@"insert into AcaoWeb(Nome,Cpf,Numero,Sexo,Adulto)values(@Nome, @Cpf, @Numero,@Sexo,@Adulto)", add);
